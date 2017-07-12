@@ -1,3 +1,125 @@
 body {
-    background-color: #eee;
+    font-family: 'Lato', Helvetica, Arial, Sans-Serif;
 }
+
+div, img, section, header, footer, nav {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    color: #f86328;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5197d2;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #f86328;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #696969;
+    text-transform: lowercase;
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+h3 {
+    color: #f86328;
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+#container {
+    max-width: 100%;
+    position: relative;
+    margin: 0px auto;
+}
+
+header {
+    overflow: hidden;
+    padding: 20px;
+    border-bottom: 3px solid #A8A8A8;
+}
+
+@media screen and (max-width:470px) { 
+    .logo {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:471px) {
+    .logo {
+        float: left;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .title {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (min-width:471px) {
+    .title {
+        float: right;
+        text-align: right;
+    }
+}
+
+#main-image {
+    clear: both;
+    margin: 20px auto;
+}
+
+/*
+**
+** PROJECTS
+**
+**
+*/
+
+#projects {
+   margin: 10px auto; 
+}
+
+.project {
+    text-align: center;
+    width: 33%;
+    min-width: 250px;
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.project a {
+    font-size: 5vw;
+}
+
+
+.project img {
+    border: 1px solid;
+    border-radius: 200px;
+}
+
+footer {
+    text-align: center:
+}
+
