@@ -98,10 +98,13 @@ header {
 */
 
 #projects {
-   margin: 10px auto; 
+    display: flex;
+    flex-flow: wrap;
+    margin: 10px auto; 
 }
 
 .project {
+   width: 33%;
    padding: 20px;
    margin-bottom: 30px;
    text-align: left;
